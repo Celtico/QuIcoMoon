@@ -1,2 +1,3 @@
 QuIcoMoon
 =========
+QuAdminCompleteApp provider assets
