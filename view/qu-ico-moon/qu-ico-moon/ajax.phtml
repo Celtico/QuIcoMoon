@@ -9,6 +9,7 @@
 
     var valIcon = $('#icon');
     var formsIcon = valIcon.val();
+    var loadAjax = $('.iconLoad-ajax');
 
     if(formsIcon){
         $('.prev-icon').attr('data-icon', $(formsIcon).attr('data-icon'));
@@ -16,6 +17,7 @@
     $('.fs1').click(function () {
         $('.prev-icon').attr('data-icon', $(this).attr('data-icon'));
         valIcon.val('<span class="iconb" data-icon="' + $(this).next().attr('value') + '"></span>');
+        loadAjax.removeClass('iconLoad-ajax-open');
         return false;
     });
 
