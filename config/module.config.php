@@ -39,6 +39,34 @@ return array(
             ),
         ),
     ),
+    /**
+     *
+     *
+     * QuAdmin Navigation
+     *
+     *
+     */
+    'navigation' => array(
+
+        'qu_admin_navigation' => array(
+            'system' => array(
+                'icon'  => '&#xe04d;',
+                'label' => 'System',
+                'route' => 'system_route/users_route',
+                'order' =>100,
+                'pages' => array(
+
+                    'qu_ico_moon' => array(
+                        'order' =>5,
+                        'icon'   =>'&#xe054;',
+                        'label' => 'IcoMoon',
+                        'route' => 'system_route/qu_ico_moon_route',
+                    ),
+
+                ),
+            ),
+        ),
+    ),
 
 
     /**
