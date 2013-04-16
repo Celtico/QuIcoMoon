@@ -7,7 +7,7 @@
     "homepage": "https://github.com/Celtico/QuIcoMoon",
     "license": "BSD-3-Clause",
     "require": {
-
+        "php": ">=5.3.3"
     },
     "authors": [
         {
