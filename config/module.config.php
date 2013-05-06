@@ -50,10 +50,6 @@ return array(
 
         'qu_admin_navigation' => array(
             'system' => array(
-                'icon'  => '&#xe04d;',
-                'label' => 'System',
-                'route' => 'system_route/users_route',
-                'order' =>100,
                 'pages' => array(
 
                     'qu_ico_moon' => array(
